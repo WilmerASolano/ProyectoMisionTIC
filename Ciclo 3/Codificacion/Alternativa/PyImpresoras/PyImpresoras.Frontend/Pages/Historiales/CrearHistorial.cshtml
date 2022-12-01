@@ -1,0 +1,23 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.CrearHistorialModel
+@{
+     ViewData["Title"] = "Crear Seguro";
+}
+<form method="POST">
+     <div class="mb-3">
+        <label for="fecha_fin" class="form-label">Valor</label>
+        <input asp-for="HistorialRevision.Valor" type="date" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+     <div class="mb-3">
+        <label for="fecha_fin" class="form-label">Fecha y hora </label>
+        <input asp-for="HistorialRevision.FechaHora" type="date" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="fecha_fin" class="form-label">Codigo de revision</label>
+        <input asp-for="HistorialRevision.RevisionId" type="date" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    
+</form>

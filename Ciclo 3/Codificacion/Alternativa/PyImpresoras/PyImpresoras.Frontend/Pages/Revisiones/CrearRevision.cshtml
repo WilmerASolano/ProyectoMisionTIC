@@ -1,0 +1,53 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.CrearRevisionModel
+@{
+    ViewData["Title"] = "Crear Revision";
+}
+<h1>Generar revision</h1>
+<form method="POST">
+    <div class="mb-3">
+        <label for="estado_cabezal" class="form-label">Estado de cabezal</label>
+        <input asp-for="Revision.EstadoCabezal" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="estado_extrusor" class="form-label">Estado de extrusor</label>
+        <input asp-for="Revision.EstadoExtrusor" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="voltaje" class="form-label">Voltaje</label>
+        <input asp-for="Revision.Voltaje" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="voltaje" class="form-label">Alineacion</label>
+        <input asp-for="Revision.Alineacion" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="voltaje" class="form-label">Fecha y hora</label>
+        <input asp-for="Revision.FechaHora" type="date" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="codigo_impresora" class="form-label">Codigo de la impresora</label>
+        <input asp-for="Revision.Id" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    
+    <div class="mb-3">
+        <label for="tipo_revision" class="form-label">Tipo de revision</label>
+        <select class="form-select" aria-label="Default select example">
+            @foreach (var tipoRevision in Model.TipoRevision)
+            {
+                <option value="@tipoRevision.Id">@tipoRevision.TipoDeRevision</option>
+            }
+
+        </select>
+
+    </div>
+    <div>
+        <input type="submit" class="btn btn-primary " value="guardar revision">
+    </div>
+</form>

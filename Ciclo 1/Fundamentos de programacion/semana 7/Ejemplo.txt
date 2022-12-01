@@ -1,0 +1,155 @@
+1. importar la libreria Panda
+
+#Importar Pandas
+import pandas as pd
+
+import matplotlib.pyplot as plt
+
+#Crear las listas con los datos necesario
+fbk = ['Facebook', 2499, True, 2006]
+twt = ['Twitter', 339, False, 2006]
+ig = ['Instagram', 1000, True, 2010]
+yt = ['Youtube', 2000, False, 2003]
+lkn = ['LinkedIn', 663, False, 2003]
+wsp = ['WhatsApp', 1600, True, 2009]
+
+lista_rs = [fbk, twt, ig, yt, lkn, wsp]
+
+#Se crea el dataFrame a partir de la lista_rs
+df_rs = pd.DataFrame(
+  lista_rs,
+  columns = ['Nombre', 'Cantidad', 'ES_FBK', 'Año']
+)
+
+print(df_rs)
+
+
+# Creando DF Vacios
+df = pd.DataFrame(
+  columns = ['Nombre', 'Cantidad', 'ES_FBK', 'Año']
+)
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+# Adicionando data al DF desde un diccionario
+languages_dict = {
+  'language': ['C++', 'VB.NET', 'Go', 'PHP', 'Perl'],
+  'avg_salary': [80,75,70,90,80],
+  'num_candidates': [122,154,138,120,145]
+}
+
+df_languages = pd.DataFrame(languages_dict)
+
+print(df_languages)
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+## Adicionando una fila en un DF
+new_language = {'language': 'R', 'avg_salary': 80, 'num_candidates': 90 }
+df_languages = df_languages.append(new_language, ignore_index=True)
+
+print(df_languages)
+
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+## Adicionando una fila en un DF
+new_languages = {
+  'language': ['VB', 'HTML'], 
+  'avg_salary': [70, 50], 
+  'num_candidates': [100, 110] }
+df_newLanguages = pd.DataFrame(new_languages)
+print(df_newLanguages)
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+#Se concatenan los 2 DF
+df_languages = pd.concat([df_languages, df_newLanguages], ignore_index=True)
+print(df_languages)
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+#Insertando una fila en una posición especifica
+new_lang = ['Python', 120, 170]
+df_languages.loc[len(df_languages.index)] = new_lang
+print(df_languages)
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+#Mostrar cierta cantidad de datos del DF
+print(df_languages.head(3))
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+#Utilizar la función describe para algunas datos estadisticos
+print(df_languages.describe())
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+# Organizando los datos por una columna
+print(df_languages.sort_values("avg_salary"))
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+#solicitar la selección de filas
+df_languages_workers = df_languages['num_candidates'] >= 150
+print(df_languages_workers)
+
+df_languages_most_developers = df_languages[df_languages_workers]
+print(df_languages_most_developers)
+
+print(" " * 20)
+print("@ "* 20)
+print(" " * 20)
+
+### filtros con varias columnas
+#### and  = &
+####  or = | (pipe) 
+print("")
+df_salario = df_lenguajes[(df_lenguajes['salario'] >= 500) & (df_lenguajes['candidatos'] == 10)]
+print(df_salario)
+
+## Graficando DFs
+datos = {
+  'alimentos': ['manzana','piña','Pera'],
+  'calorias': [52,30,55]
+}
+df = pd.DataFrame(datos)
+print(df)
+#plt.plot(datos['alimentos'], datos['calorias'])
+#plt.show()
+
+## Graficando las Redes Sociales
+#plt.plot(df_rs['Nombre'], df_rs['Cantidad'])
+#plt.show()
+
+#plt.bar(df_rs['Nombre'], df_rs['Cantidad'])
+#plt.show()
+
+#Adicionando Color
+df_rs_ordenadas = df_rs.sort_values('Cantidad', ascending=False)
+#plt.bar(df_rs_ordenadas['Nombre'], df_rs_ordenadas['Cantidad'], color=['b','r','g','c','y','k'])
+#plt.show()
+
+#Graficos Pie
+plt.pie(df_rs_ordenadas['Cantidad'], labels = df_rs_ordenadas['Nombre'])
+plt.show()
+

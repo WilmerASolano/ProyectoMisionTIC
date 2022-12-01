@@ -1,0 +1,15 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.TipoImpresorasModel
+@{
+     ViewData["Title"] = "Tipo Impresora";
+}
+<h1>Registro del tipo de impresoras en el sistema</h1>
+<form method="post">
+  <div class="mb-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label asp-for="TipoImpresora.Tipo" class="form-label"> Tipo de impresora</label>
+    <input type="text" asp-for="TipoImpresora.Tipo"  class="form-control" id="Email" aria-describedby="emailHelp">
+    <span asp-validation-for="TipoImpresora.Tipo" class="text-danger"></span>
+  </div>
+  <button type="submit" class="btn btn-primary">Registrar tipo impresora</button>
+</form>

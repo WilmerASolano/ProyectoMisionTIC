@@ -1,0 +1,123 @@
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','62sur','93-16','atalayas',bogota'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','76c','123-16','polo','medellin'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','6sur','78-7','victoria','manizales'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','14f','10-5','la junta','medellin'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','12','13f-19','recodo','bogota'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','14h','45-34','rosales','medellin'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','90i','11-32','torres','pereira'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','1','14-4','cerros','neiva'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','123sur','13i-19','palmira','bogota'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','70j','14-78','juanchito','cali'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','7i','1-87','aguablanca','cali'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','4fsur','2-60','luz','medellin'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('calle','9j','4h-10','el palmar','manizales'),
+INSERT INTO direcciones (calle/carrera,numero,barrio,ciudad) VALUES('carrera','89b','11-60','el obispo','pereira'), 
+
+INSERT INTO existencia(nombre) VALUES('disponible');
+INSERT INTO existencia(nombre) VALUES('pocas unidades');
+INSERT INTO existencia(nombre) VALUES('agotado');
+INSERT INTO existencia(nombre) VALUES('no disponible en tienda');
+INSERT INTO existencia(nombre) VALUES('en abastecimiento');
+
+
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('electrodomesticos','productos electricos ');
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('lacteos','leches y yogures ');
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('granos','productos perecederos del grano');
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('frutas y verduras','productos de frutas y verduras');
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('panaderia','productos elaborados a base de harina');
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('aseo','jabones,detergentes entre otros de aseo');
+INSERT INTO categoria(nombre_categoria,descripcion) VALUES('frios','carnes,heledos,gaseosas');
+
+
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('34567643','elabora panes ltda',1,'6789054','elaborapanes@gmail.com','gilberto varon','elaborapanes.com');
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('34587667','electricosigm',2,'8976533','electricosigm@outlook.com','miguel lopez','electricos.net');
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('56432387','lacteos sanchez ltda',3,'9865321','lacteossanchez@gmail.com','leidy soto','lanchezschez.com');
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('34567643','industria gramos s.a.s',4,'44656721','gramosindustria@hotmail.com','milena vargas','indusgramos.net');
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('34567643','fruvers ltda',5,'6789244','fruvers@gmail.com','fernando torres','somosfruvers.com');
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('57897923','limpiamos s.a',6,'3458721','limpiamos@hotmail.com','laura jimenez','limpiamos.net');
+INSERT INTO proveedor(NIT,razon_social,id_direccion,telefono,correo_electronico,representante_legal,sitio_web) VALUES
+('124098542','frios sur ltda',,'89321945','friossur@yahoo.com','mateo montenegro','friossur.com');
+
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('10','computador',3.450,2,1,1);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('11','yogurt griego',2.230,3,2,2);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('12','frijoles rojos',8.990,4,1,3);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('13','mandarina',19.450,5,3,4);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('14','pan rollo',19.780,1,3,5);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('15','limpiatodo',27.110,6,4,6);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('16','carne res',9.140,7,1,7);
+INSERT INTO productos(codigo_producto,nombre,precio_actual,id_proveedor,id_existencia,_id_categoria)
+VALUES('16','ejemplo',9.140,,,);
+
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('4545468','jose','narvaez','7','josenar@gmail.com');
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('7986543','mario','gomez','8','mariogom@hotmail.com');
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('5123467','maria','pabon','9','mariiia@gmail.com');
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('56790137','sara','triana','10','saritriana@outlook.com');
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('1030455677','andrea','hernandez','11','andreher@gmail.com');
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('1001324666','luis','pinto','12','lpintoo@yahoo.com');
+INSERT INTO clientes(documento_identidad,nombre,apellido,id_direccion,correo_electronico) 
+VALUES('1234562890','miranda','gonzalez','13','gonzalezmira@hotmail.com');
+
+
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(07-07-2021,1,0,0,1);
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(07-07-2022,2,0,0,10);
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(03-04-2020,3,,,11);
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(08-03-2019,4,,,12);
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(26-04-2017,5,,,13);
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(20-02-2018,6,,,14);
+INSERT INTO VENTAS(fecha_venta,id_cliente,valor_descuento,valor_total,id_producto)VALUES(11-09-2020,7,,,15);
+
+
+INSERT INTO TIPO_PAGO(medio)VALUES('tajeta debito');
+INSERT INTO TIPO_PAGO(medio)VALUES('tajeta credito');
+INSERT INTO TIPO_PAGO(medio)VALUES('efectivo';
+
+INSERT INTO TIPO_VENTA(id_tipo,id_venta)VALUES(1,1);
+INSERT INTO TIPO_VENTA(id_tipo,id_venta)VALUES(2,2);
+INSERT INTO TIPO_VENTA(id_tipo,id_venta)VALUES(3,3);
+INSERT INTO TIPO_VENTA(id_tipo,id_venta)VALUES(2,4);
+INSERT INTO TIPO_VENTA(id_tipo,id_venta)VALUES(3,5);
+INSERT INTO TIPO_VENTA(id_tipo,id_venta)VALUES(1,6);
+
+
+SELECT * FROM productos;
+SELECT * FROM clientes;
+SELECT * FROM ventas;
+SELECT * FROM proveedor;
+
+UPDATE producto SET nombre= 'carne extra de res' WHERE nombre='carne de res';
+
+DELETE FROM productos where id_producto= '8';
+
+UPDATE cliente SET correo = 'mariogomez@hotmail.com' WHERE id_cliente = 2;
+DELETE FROM cliente where documento_identidad='1234562890'; 
+DELETE FROM direccion where barrio='el obispo'
+
+UPDATE venta SET fecha_venta=2022-08-08 where fecha_venta=2022-07-07;
+DELETE FROM venta where fecha_venta = 2018-04-26;
+
+UPDATE proveedor SET sitio_web ='friosdelsur.com' WHERE sitio_web='friossur.com';
+DELETE FROM proveedor WHERE telefono=89321945;
+
+SELECT cl.nombre,pr.nombre,vt.fecha_venta FROM venta AS vt INNER JOIN cliente as cl ON vt.id_cliente = cl.id_cliente INNER JOIN producto as pr ON vt.id_producto = pr.id_producto WHERE cl.id_cliente=1;
+
+SELECT pr.*,pd.* FROM proveedor as pr  INNER JOIN producto as pd ON pr.id_proveedor = pd.id_proveedor;
+SELECT dc.*, cl.* FROM direccion as dc INNER JOIN cliente as cl ON dc.id_direccion = cl.id_direccion WHERE cl.id_cliente = 5;

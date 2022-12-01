@@ -1,0 +1,45 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.VerPersonaModel
+@{
+    ViewData["Title"] = "Información del  Usuario";
+}
+<h1>Informacion del usuario</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="post">
+  <div class="mb-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Persona.Id">
+    <label asp-for="Persona.Email" class="form-label"> Correo de usuario</label>
+    <input type="email" asp-for="Persona.Email"  class="form-control" id="Email" aria-describedby="emailHelp" readonly>
+    <span asp-validation-for="Persona.Email" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label asp-for="Persona.Login" class="form-label">Nombre de usuario</label>
+    <input type="text" asp-for="Persona.Login"  class="form-control" id="Login" aria-describedby="emailHelp" readonly>
+    <span asp-validation-for="Persona.Login" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Persona.Password" class="form-label">Password</label>
+    <input type="password" asp-for="Persona.Password" class="form-control" id="Password">
+  </div>
+  <div class="mb-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label asp-for="Persona.Nombre" class="form-label">Nombre de usuario</label>
+    <input type="text" asp-for="Persona.Nombre"  class="form-control" id="Nombre" aria-describedby="emailHelp" readonly>
+    <span asp-validation-for="Persona.Nombre" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label asp-for="Persona.Apellido" class="form-label">Apellido de usuario</label>
+    <input type="text" asp-for="Persona.Apellido"  class="form-control" id="Apellido" aria-describedby="emailHelp" readonly>
+    <span asp-validation-for="Persona.Apellido" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Persona.NumeroTelefono" class="form-label">Numero de telefono</label>
+    <input type="text"  asp-for="Persona.NumeroTelefono" class="form-control" id="Telefono" readonly>
+  </div>
+  
+ 
+   <a asp-page="ListadoPersona" class="btn btn-primary">Volver</a>
+</form>

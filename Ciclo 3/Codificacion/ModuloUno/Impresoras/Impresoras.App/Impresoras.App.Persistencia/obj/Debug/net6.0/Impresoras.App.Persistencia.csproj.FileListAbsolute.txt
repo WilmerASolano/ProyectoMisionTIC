@@ -1,0 +1,17 @@
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\bin\Debug\net6.0\Impresoras.App.Persistencia.deps.json
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\bin\Debug\net6.0\Impresoras.App.Persistencia.runtimeconfig.json
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\bin\Debug\net6.0\Impresoras.App.Persistencia.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\bin\Debug\net6.0\Impresoras.App.Persistencia.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\bin\Debug\net6.0\Impresoras.App.Dominio.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\bin\Debug\net6.0\Impresoras.App.Dominio.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.AssemblyInfo.cs
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.csproj.CopyComplete
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\refint\Impresoras.App.Persistencia.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\Impresoras.App.Persistencia.genruntimeconfig.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Impresoras\Impresoras.App\Impresoras.App.Persistencia\obj\Debug\net6.0\ref\Impresoras.App.Persistencia.dll

@@ -1,0 +1,12 @@
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\bin\Debug\net6.0\PyImpresoras.Dominio.deps.json
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\bin\Debug\net6.0\PyImpresoras.Dominio.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\bin\Debug\net6.0\PyImpresoras.Dominio.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.csproj.AssemblyReference.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.AssemblyInfoInputs.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.AssemblyInfo.cs
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\refint\PyImpresoras.Dominio.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\PyImpresoras.Dominio.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Dominio\obj\Debug\net6.0\ref\PyImpresoras.Dominio.dll

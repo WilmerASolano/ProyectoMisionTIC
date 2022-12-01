@@ -1,0 +1,56 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.ListadoImpresorasModel
+@{
+    ViewData["Title"] = "Listado de impresoras";
+}
+<h1>Listado de impresora</h1>
+<p>
+    <a asp-page="CrearPersona">Crear usuario</a>
+</p>
+<form method="POST">
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>Tipo de impresora</th>
+
+
+</tr>
+
+</thead>
+<tbody>
+
+@foreach (var listadoImpresoras in Model.TipoImpresora)
+{
+ <tr>
+ <td>@listadoImpresoras.Id</td>
+|<td>@listadoImpresoras.Tipo</td>
+ 
+
+
+ <td>
+    <!-- el  asp-route-id sirve para enviar el id a los formularios con la informacion -->
+    <a asp-page="./EditarPersona" asp-route-id="@listadoImpresoras.Id">Editar</a>
+    <a asp-page="./VerPersona" asp-route-id="@listadoImpresoras.Id">Detalles</a>
+    <a asp-page="./BorrarPersona" asp-route-id="@listadoImpresoras.Id">Borrar</a>
+     @* <a asp-page="../Seguros/CrearSeguro" asp-route-id="@persona.Id" asp-route-login=@persona.Login>Crear Seguro</a> *@
+
+ </td>
+</tr>
+}
+
+
+
+
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+</form>
+

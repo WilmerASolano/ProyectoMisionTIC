@@ -1,0 +1,15 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.CrearTipoSeguroModel
+@{
+     ViewData["Title"] = "Tipo de seguro";
+}
+<h1>Registro del tipo de revisiones en el sistema</h1>
+<form method="post">
+  <div class="mb-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label asp-for="TipoSeguro.TipoDeSeguro" class="form-label"> Tipo de seguro</label>
+    <input type="text" asp-for="TipoSeguro.TipoDeSeguro"  class="form-control" id="Tipo" aria-describedby="emailHelp">
+    <span asp-validation-for="TipoSeguro.TipoDeSeguro" class="text-danger"></span>
+  </div>
+  <button type="submit" class="btn btn-primary">Registrar tipo seguro</button>
+</form>

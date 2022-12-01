@@ -1,0 +1,53 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.CrearImpresoraModel
+@{
+     ViewData["Title"] = "Crear Impresora";
+}
+<h1>Registrar impresora</h1>
+ @* <a asp-page="../Seguros/CrearSeguro" asp-route-id="@persona.Id" asp-route-login=@persona.Login>Registrar Tipo impresora</a> *@
+ <a asp-page="../TipoImpresoras/TipoImpresoras" >Registrar Tipo impresora</a>
+@* <!--<h4>@Model.Persona.Login</h4>*@
+<form action="POST">
+    <div class="mb-3">
+        <label for="placa_impresora" class="form-label">Placa de impresora<label>
+        <input asp-for="Impresora.PlacaImpresora" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="tipo_de_impresora" class="form-label">Tipo de seguro</label>
+        <select class="form-select" aria-label="Default select example" >
+            @foreach (var tipoImpresora in Model.TipoImpresora)
+            {
+                <option value="@tipoImpresora.Id">@tipoImpresora.Tipo</option>
+            }
+
+        </select>
+        
+    </div>
+    <div class="mb-3">
+        <label for="marca" class="form-label">Marca</label>
+        <input asp-for="Impresora.Marca" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="anio class="form-label">Año</label>
+        <input asp-for="Impresora.Anio" type="date" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="velocidad_impresion" class="form-label">Velocidad de impresion</label>
+        <input asp-for="Impresora.VelocidadImpresion" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="pais_origen" class="form-label">Pais de origen</label>
+        <input asp-for="Impresora.PaisOrigen" type="text" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+    </div>
+    
+    <div>
+            <input type="submit" class="btn btn-primary " value="crear seguro">
+     </div>
+</form>
+
+ 

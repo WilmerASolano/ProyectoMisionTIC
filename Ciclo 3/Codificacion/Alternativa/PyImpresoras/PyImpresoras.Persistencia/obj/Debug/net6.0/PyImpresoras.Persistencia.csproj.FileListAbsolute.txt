@@ -1,0 +1,17 @@
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.AssemblyInfo.cs
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\bin\Debug\net6.0\PyImpresoras.Persistencia.deps.json
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\bin\Debug\net6.0\PyImpresoras.Persistencia.runtimeconfig.json
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\bin\Debug\net6.0\PyImpresoras.Persistencia.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\bin\Debug\net6.0\PyImpresoras.Persistencia.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\bin\Debug\net6.0\PyImpresoras.Dominio.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\bin\Debug\net6.0\PyImpresoras.Dominio.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.csproj.CopyComplete
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\refint\PyImpresoras.Persistencia.dll
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.pdb
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\PyImpresoras.Persistencia.genruntimeconfig.cache
+C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Persistencia\obj\Debug\net6.0\ref\PyImpresoras.Persistencia.dll

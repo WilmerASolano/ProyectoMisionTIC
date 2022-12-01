@@ -1,0 +1,45 @@
+﻿@page
+@model PyImpresoras.Frontend.Pages.CrearAsignacionModel
+@{
+     ViewData["Title"] = "Crear asignacion";
+}
+<h1>Generar asignacion</h1>
+<form method="POST">
+ <div class="mb-3">
+        <label for="tecnico" class="form-label">Tecnico</label>
+        <select class="form-select" aria-label="Default select example" >
+            @foreach (var tecnico in Model.Tecnico)
+            {
+                <option value="@tecnico.Id">@tipoSeguro.TipoDeSeguro</option>
+            }
+
+        </select>
+        
+    </div>
+   <div class="mb-3">
+        <label for="operador" class="form-label">Operador</label>
+        <select class="form-select" aria-label="Default select example" >
+            @foreach (var operador in Model.Operador)
+            {
+                <option value="@operador.Id">@tipoSeguro.TipoDeSeguro</option>
+            }
+
+        </select>
+        
+    </div>
+    <div class="mb-3">
+        <label for="impresora" class="form-label">Impresora</label>
+        <select class="form-select" aria-label="Default select example" >
+            @foreach (var impresora in Model.Impresora)
+            {
+                <option value="@impresora.Id">@tipoSeguro.TipoDeSeguro</option>
+            }
+
+        </select>
+        
+    </div>
+
+
+
+</form>
+

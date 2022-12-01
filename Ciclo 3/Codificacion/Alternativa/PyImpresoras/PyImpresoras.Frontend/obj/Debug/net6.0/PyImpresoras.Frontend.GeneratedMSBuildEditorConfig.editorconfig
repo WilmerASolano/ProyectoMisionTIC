@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PyImpresoras.Frontend
+build_property.RootNamespace = PyImpresoras.Frontend
+build_property.ProjectDir = C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Frontend\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Wilmer Solano\Documents\Proyectos\Alternativa\PyImpresoras\PyImpresoras.Frontend
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Asignaciones/CrearAsignacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNpZ25hY2lvbmVzXENyZWFyQXNpZ25hY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Historiales/CrearHistorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yaWFsZXNcQ3JlYXJIaXN0b3JpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Impresoras/CrearImpresora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1wcmVzb3Jhc1xDcmVhckltcHJlc29yYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/MenuAux/MenuAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUF1eFxNZW51QXV4aWxpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Personas/CrearPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcQ3JlYXJQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Personas/EditarPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcRWRpdGFyUGVyc29uYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Personas/ListadoPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcTGlzdGFkb1BlcnNvbmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Personas/VerPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYXNcVmVyUGVyc29uYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Revisiones/CrearRevision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25lc1xDcmVhclJldmlzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Seguros/CrearSeguro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VndXJvc1xDcmVhclNlZ3Vyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/TipoEstudios/TipoEstudios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb0VzdHVkaW9zXFRpcG9Fc3R1ZGlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/TipoImpresoras/ListadoImpresoras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb0ltcHJlc29yYXNcTGlzdGFkb0ltcHJlc29yYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/TipoImpresoras/TipoImpresoras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb0ltcHJlc29yYXNcVGlwb0ltcHJlc29yYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/TipoRevisiones/CrearTipoRevision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb1JldmlzaW9uZXNcQ3JlYXJUaXBvUmV2aXNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/TipoSeguros/CrearTipoSeguro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb1NlZ3Vyb3NcQ3JlYXJUaXBvU2VndXJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wilmer Solano/Documents/Proyectos/Alternativa/PyImpresoras/PyImpresoras.Frontend/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-exht1g0kvd

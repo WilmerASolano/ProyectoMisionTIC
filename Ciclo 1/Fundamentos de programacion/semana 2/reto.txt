@@ -1,0 +1,105 @@
+
+1)Identificar el problema:
+hay varias formulas que permiten a la personas que ejercen deporte o alguna actividad fisica realizar el calculo y saber si estan cumpliendo con el objetivo de ser una persona
+con estilo de vida saludable o "fitness" lo cual seria pertinente una mayor organizacion para dichos calculos y permitir 
+una mejor orientacion en las personas interesadas
+
+usuarios: (hombres y mujeres)
+restricciones: ninguno
+
+2)Definir el problema:
+objetivo 
+realizar una aplicacion tipo calculadora la cual permita a las personas realizar dichos calculos de una manera mas facil
+de las distintas metricas las cuales determinan si su estado fisico cumplen con el objetivo  de tener una estilo de vida
+saludable o "fitness"
+
+3)Estrategia:
+*obtener todas las formulas necesarias para la elaboracion de la calculadora saludable 
+*las formulas son necesarias para lo siguiente: 
+1)calcular el peso ideal de una persona
+2)saber el numero de calorias que se quema durante la realizacion de alguna actividad fisica
+3)la cantidad de grasa corporal o peso  que tiene una persona
+4)saber su indice metabolica basal  en pocas palabras saber la persona la  cantidad de calorias que necesita el cuerpo 
+resaltar que la gran mayoria de estas formulas tienen en comun que solicitan la edad,altura y peso de la persona 
+
+4)Algoritmo:
+todas se van a elaborar en funciones independientes teniendo en cuenta el genero de la persona.
+1)PESO IDEAL:las formulas establecidas por el dr.miller son las siguientes: 
+Hombre = 56.2 +1.41*(Altura (cm)/2.54 -60)
+Mujer = 53.1 +1.36 *(Altura (cm)/2.54 -60))
+*se le va a solicitar la altura de la persona en centimentros
+
+2)QUEMANDO CALORIAS:la formula para calcular la quema de calorias para toda persona y su MET es la siguiente:
+Calorías quemadas = (Tiempo actividad (min) * MET * Peso
+(Kg)) /200
+VALORES DEL MET:
+CAMINAR=2
+TENIS=5
+MONTAR EN BICICLETA=14
+CORRER=6
+NADAR=9.8
+*se le solicita a la persona su tiempo de actividad fisica y digita  el MET  de acuerdo a dicha actividad 
+
+3)PORCENTAJE DE GRASA CORPORAL:la formula para calcular el porcentaje de peso de una persona es la siguiente
+Hombres adultos = 1.20 * IMC + 0.23 * Edad - 16.2
+Mujeres adultas = 1.20 * IMC + 0.23 * Edad - 5.4
+IMC = peso (Kg) / Altura (m)2
+*se le solicita a la persona la altura en metros,peso y su edad 
+
+4)ÍNDICE METABÓLICO BASAL: su formula para calcular es la siguiente
+Hombres = 13.397P + 4.799E - 5.677A + 88.362
+Mujeres = 9.247P + 3.098E - 4.330A + 447.593
+DONDE:
+P= peso en kg
+A= altura en cm
+E= edad en años 
+*se le solicita a la persona el peso,la altura y su edad 
+
+_________________________________________________________________________-
+
+funciones de los procesos :
+peso_ideal_hombre(altu):
+ hombre = 56.2 +1.41*(altu/2.54 -60)
+ return hombre
+peso_ideal_mujer(altu):
+ mujer = 53.1 +1.36 *(altu/2.54 -60))
+calorías_quemadas(tie,met,pes):
+ calo_quema=(tie * met * peso)/200
+  return calo_quema
+grasa_corporal_hombre(imc,edad):
+  gras_cor_hom = 1.20* imc + 0.23*edad-16.2  
+  return gras_cor_hom 
+grasa_corporal_mujer(imc,edad):
+ gras_cor_muj = 1.20* imc + 0.23*edad-5.4 
+ return gras_cor_muj
+indice_meta_basal_hombre(pes,alt,ed):
+ indi_hom = (13.397*pes) + (4.799 * ed) - (5.677*alt) + 88.362
+ return indi_hom
+indice_meta_basal_mujer(pes,alt,ed):
+ indi_muj = (9.247*pes) + (3.098*ed) - (4.330*alt) + 447.593
+ return indi_muj
+
+altura = int(input("por favor digite su estatura en centimetros ej: 165 cm"))
+
+tiempo = int (input("por favor digite los minutos en los cuales realizo la actividad ej: 60 "))
+print("digite por favor el MET tiendo en cuenta lo siguiente: ")
+print("si camino escriba el numero  2)
+print("si realizo tenis escriba el numero 5")
+print("si montó bicicleta escriba el numero 14")
+print("si estaba corriendo  escriba el numero 6")
+print("si estaba nadando escriba el numero 9.8")
+met = float(input("digite  el numero de su actividad"))
+peso_calo= float(input("por favor digite su peso corporal")
+
+
+peso_cuerpo = float(input("por favor digite su peso "))
+print("por favor digite la altura de su cuerpo en metros ej :1.65 m ")
+altura_cuerpo= float(input("altura"))
+imc = peso_cuerpo/altura_cuerpo**2
+edad = int(input("por favor digite su edad))
+
+
+
+
+
+
